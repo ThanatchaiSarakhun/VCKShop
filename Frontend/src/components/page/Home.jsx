@@ -5,7 +5,7 @@ import Footer from "../Footer.jsx"
 function Home()
 {
     return <>
-    <div className="relative bg-orange-200 border-2 border-black">
+    <div className="min-h-screen relative size-full bg-orange-200 border-2 border-black">
         <Navbar />
         <div className="flex items-center justify-center m-auto">
             ฺ......

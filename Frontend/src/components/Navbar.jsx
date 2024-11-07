@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom"
 function Navbar() {
     return <>
     <nav id="navbar" class="bg-yellow-300 border-black border-2">
-    <div id ="nav-container" class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
-        <div id="logo" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <div id ="nav-container" class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-5">
+        <div id="logo" class="flex items-center space-x-2 rtl:space-x-reverse">
             <NavLink to ="/">
                 <img src="images/LogoNavbar.png" class="h-8" alt="Logo" />
             </NavLink>
@@ -18,8 +18,8 @@ function Navbar() {
             <li id="queue"class="block py-3 px-3 md:p-0 text-gray-500 bg-yellow-300 rounded hover:text-black text-[1.3vw]" aria-current="page">
                 <NavLink to ='/queue'>จองเข้าใช้บริการอู่</NavLink>
             </li>
-            <li id="calc"class="block py-3 px-3 md:p-0 text-gray-500 bg-yellow-300 rounded hover:text-black text-[1.3vw]" aria-current="page">
-                <NavLink to ='/calc'>ประเมินราคาอะไหล่</NavLink>
+            <li id="estimateprice"class="block py-3 px-3 md:p-0 text-gray-500 bg-yellow-300 rounded hover:text-black text-[1.3vw]" aria-current="page">
+                <NavLink to ='/estimateprice'>ประเมินราคาอะไหล่</NavLink>
             </li>
             <li id="aboutus"class="block py-3 px-3 md:p-0 text-gray-500 bg-yellow-300 rounded hover:text-black text-[1.3vw]" aria-current="page">
                 <NavLink to ='/aboutus'>เกี่ยวกับเรา</NavLink>

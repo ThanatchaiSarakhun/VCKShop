@@ -4,7 +4,7 @@ import Iframe from "react-iframe"
 function Footer()
 {
     return <>
-    <div class="bg-slate-700 py-6">
+    <div class="fixed -bottom-10 w-full bg-slate-700 py-6">
     <div id="footer" class="container mx-auto text-gray-200">
         <div id="grid" class="grid grid-cols-3 justify-center text-center">
             <div id="fb-page" class="py-4">
