@@ -97,7 +97,7 @@ function EstimatePrice() {
             <div class="grid grid-cols-2 gap-4">
                 <div>
                     <p class="text-gray-600">ค่าอะไหล่:</p>
-                    <p class="text-xl font-bold">XXX บาท</p>
+                    <wp class="text-xl font-bold">XXX บาท</wp>
                 </div>
                 <div>
                     <p class="text-gray-600">ค่าบริการ:</p>

@@ -104,6 +104,28 @@ app.post('/login', function (req, res) {
  }
 })
 
+app.get("/spareparts", (req, res) => {
+  const query = "SELECT * FROM spareparts"; // query ที่จะดึงข้อมูลจากฐานข้อมูล
+  db.query(query, (err, results) => {
+      if (err) {
+          res.status(500).json({ message: "Error fetching data", error: err });
+      } else {
+          res.json(results); // ส่งผลลัพธ์กลับไปยัง frontend
+      }
+  });
+});
+
+app.get("/products", (req, res) => {
+  const query = "SELECT * FROM products"; // query ที่จะดึงข้อมูลจากฐานข้อมูล
+  db.query(query, (err, results) => {
+      if (err) {
+          res.status(500).json({ message: "Error fetching data", error: err });
+      } else {
+          res.json(results); // ส่งผลลัพธ์กลับไปยัง frontend
+      }
+  });
+});
+
 app.listen(5000, () => 
     console.log("Server is running....")
 )

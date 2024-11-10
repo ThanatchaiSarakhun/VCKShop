@@ -15,10 +15,6 @@ import City2019 from './components/page/EstimatePricePage/Honda/City_model/City2
 import City2024 from './components/page/EstimatePricePage/Honda/City_model/City2024.jsx'
 import Jazz from './components/page/EstimatePricePage/Honda/Jazz.jsx'
 import Civic from './components/page/EstimatePricePage/Honda/Civic.jsx'
-import Test from './components/page/Test.jsx'
-import Test1 from './components/page/Test1.jsx'
-import Test2 from './components/page/Test2.jsx'
-import Test3 from './components/page/Test3.jsx'
 
 import Admin from './components/page/AdminPage/Admin.jsx'
 import AdminWelcome from './components/page/AdminPage/AdminWelcome.jsx'
@@ -45,10 +41,6 @@ function App() {
       <Route path='/city2024' element={<City2024/>}/>
       <Route path='/jazz' element={<Jazz/>}/>
       <Route path='/civic' element={<Civic/>}/>
-      <Route path='/test' element={<Test/>}/>
-      <Route path='/test1' element={<Test1/>}/>
-      <Route path='/test2' element={<Test2/>}/>
-      <Route path='/test3' element={<Test3/>}/>
 
       <Route path='/admin' element={<Admin/>}>
         <Route index element={<AdminWelcome/>}/>
